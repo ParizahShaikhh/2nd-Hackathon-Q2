@@ -18,12 +18,12 @@ const Cart = () => {
       </div>
       <div>
         <div className='bg-white'>
-          <div className='bg-[#F9F1E7] mx-[300px]'><ul className='flex justify-center gap-9 p-4'><li className='font-poppins font-medium text-xl text-black flex justify-center  px-3 py-2 '>Product</li>
+          <div className='bg-[#F9F1E7] mx-[300px]'><ul className='absolute justify-start flex sm:justify-center gap-9 p-4'><li className='font-poppins font-medium text-xl text-black flex justify-center  px-3 py-2 '>Product</li>
           <li className='font-poppins font-medium text-xl text-black flex justify-center  px-3 py-2'>Price</li>
           <li className='font-poppins font-medium text-xl text-black flex justify-center  px-3 py-2'>Quantity</li>
           <li className='font-poppins font-medium text-xl text-black flex justify-center  px-3 py-2'>Subtotal</li></ul></div>
-        <div><img src="/images/cartdiv2.svg" alt="cart product picture" />
-        <div className='flex justify-center gap-6 m-3'>
+        <div className='grid grid-cols-1 w-auto'><img src="/images/cartdiv2.svg" alt="cart product picture" className='flex justify-center'/>
+        <div className=' flex justify-center gap-6 m-3'>
         <div className='font-poppins font-normal text-sm text-[#9F9F9F] flex justify-center px-3 py-2'>Asgaard sofa</div>
         <div className='font-poppins font-normal text-sm text-[#9F9F9F] flex justify-center px-3 py-2'>Rs. 250,000.00</div>
         <h4 className='font-poppins font-normal text-sm border-[#9F9F9F] border px-3 py-2 '>1</h4>

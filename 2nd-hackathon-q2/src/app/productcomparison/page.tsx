@@ -1,11 +1,13 @@
 import React from 'react'
-
-const page = () => {
+import HeaderPage from '../components/NavBar';
+import FooterPage from '../components/Footer';
+const ProductComparisonPage = () => {
   return (
     <div>
-      
+      <HeaderPage />
+      <FooterPage />
     </div>
   )
 }
 
-export default page
+export default ProductComparisonPage;

@@ -10,7 +10,7 @@ import BannerPage from "./components/Banner";
 
 export default function Home() {
   return (
-    <div className=" bg-white main">
+    <div className=" bg-white min-h-screen container">
       <HeaderPage />
       <BannerPage />
       <BrowserangePage />
